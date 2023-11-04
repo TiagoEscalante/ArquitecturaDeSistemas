@@ -1,0 +1,74 @@
+redes: las redes informaticas son el metodo con el cual los usuarios pueden comunicar su pc a otra
+
+Protocolos:
+ 
+ [+] ejemplos:
+  HTTPS: se basa en la transmisión de los certificados TLS/SSL, que verifican que un determinado 
+  proveedor es quien dice ser.
+  TCP/IP: protocolo de enlace de datos que se usa en Internet para que los ordenadores y otros 
+  dispositivos envíen y reciban datos. 
+  IP: Este es el protocolo principal en el nivel de Internet. Su función principal es 
+  identificar cada paquete que pasa por el nivel y seleccionar la mejor ruta para su 
+  envío al host destino.
+
+IP:
+ 
+ [+] es un numero formado por 4 octetos que sirven para diferenciar e identificar las computadoras en la   red
+
+ Tipo A: 1--127    (-Redes, +++ hosts) 255.0.0.0     se usa en empresas grandes
+ Tipo B: 128--191  (=Redes, =hosts)    255.255.0.0   se usa en una cantidad de hosts moderada
+ Tipo C: 192--223  (+++Redes, -host)   255.255.255.0 se usa normalmente en domicilios o en lugares pequeños
+ Tipo D: 224--239  (???) ------------
+ Tipo E: 240--255  (???) ------------
+
+
+Escritorio Remoto:
+
+ [+] Un escritorio remoto es un tipo de tecnología que permite a un usuario trabajar en
+ una computadora a través de su escritorio gráfico desde otro terminal ubicado en otro
+ lugar. Es decir, son programas que permiten acceder e interactuar con un ordenador a
+ distancia. La principal utilidad es la de acceder  a los ordenadores para solucionar 
+ fallos en éstos, sin embargo también se utilizan para el acceso a equipos de oficina.
+
+ [+] Diferencia con cloud computing: Mientras que el escritorio remoto consiste en la 
+ interconexión de unos  clientes con un host, trabajándose a distancia, la computación
+ en la nube permite  al usuario disponer de la información que necesite en el momento 
+ en el que la necesite. 
+
+ [+] Un escritorio remoto de trabajo es la tecnología que nos permite acceder a distancia a
+ un espacio de trabajo digital a través de un entorno gráfico. se puede hacer con anydesk
+
+Nubes:
+ 
+ [+] Que es?
+  La nube, o computación en la nube, se refiere al almacenamiento y acceso
+  de datos y aplicaciones a través de internet.permite aprovechar la 
+  infraestructura remota de servidores para almacenar
+  y procesar información de manera escalable.
+
+ [+] Para usarlas:
+  se nesesita buen internet, y una buena computadora
+  y de ser posible, un sistema de respaldo para guardar copias de seguridad
+ 
+ [+] Cloud Computing: 
+  hay 4 tipos de nubes:
+  |-{ Nubes Publicas: es la mas comun, ofrecen muchos recursos(potencia de computo, 
+  almacenamiento, base de datos,etc) usarlas implica no centrarse en el mantenimiento
+  de una nube propia, ej: Microsoft Azure, Google Cloud.
+  |-{ Nubes Privadas: similar a la publica, solo que tiene mas seguridad, es mas agil
+  pero debe centrarse en el manteniemiento ej:OpenStack.
+  |-{ Nubes Hibridas: es una fusion entre las publicas y privadas, ambas funcionan por
+  separado pero se encuentran unidas por tecnologia estandarizada, qur facilita la 
+  comunicacion y portabilidad de datos y apps.
+  |-{ Nubes Multiples:???
+
+ [+] servicios:
+  IaaS: (Infraestructura) lo usan administradores de sistemas, se proporcionan recursos 
+  fundamentales, redes, servidores, almacenamiento y firewalls, todo en modo servicio.
+  ej: AWS, Microsoft Azure. 
+  PaaS: (Plataforma) lo usan desarrolladores de software, con PaaS no gestionas y no tienes 
+  control de la infraestructura subyacente garantiza el sistema operativo, los lenguajes de programación,     las librerías y herramientas.
+  ej: Azure App Service.  
+  SaaS: (Software) es ofrecido por el proveedor, quien se encarga de la administración. En este modelo no     tienes que preocuparte por la infraestructura de nube, son aplicaciones de uso final.
+  ej: Apps web de google.
+
